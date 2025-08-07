@@ -1,14 +1,83 @@
-#img-character
+*
 {
-    height: 500px;    
-}
-
-figure
-{
+    padding:0;
     margin: 0;
+    font-size: 62.5%;
+}
+body, p, b, span
+{
+    font-size: 1.6rem;
+}
+.character-img
+{
+    height: 50rem;       
+    border-radius: 2rem; 
+    margin: 2rem 0;
+}
+.character_name
+{
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+.menu_link
+{
+    text-decoration: none;
+    font-size: 2rem ;
+    font-weight: bold;    
+    color: black;  
+    border-radius: 1rem;
+    border: 0.3rem  solid black;
+    padding: 0.5rem;
+    margin: 0 1rem;
+}
+.menu_link:hover
+{
+    background: black;
+    color: white;
+}
+.ico_redes
+{
+    height: 5rem;
+    width: 5rem;
+}
+#menu_container
+{
+    /* border: 0.2rem solid blue; */
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#principal_continer
+{
+    width: 70%;
+    margin: auto;
+    border-right: 0.5rem solid black;
+    border-left:  0.5rem solid black;
+}
+nav li
+{    
+    list-style-type: none;
+    display: inline;    
+}
+footer, figure
+{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+}
+p
+{    
+    margin: 1.5rem 1rem;
 }
 
-address
-{    
-    text-align: center;
-}
+
