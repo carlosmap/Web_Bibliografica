@@ -21,6 +21,13 @@ body, p, b, span
     text-align: center;
     display: block;
 }
+.link
+{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color:dodgerblue;
+    font-weight: bold;
+}
 .menu_link
 {
     text-decoration: none;
