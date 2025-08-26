@@ -51,6 +51,12 @@
     margin: 2% 0 0 0;
 }
 
+.document-img
+{
+    max-width: 50rem;
+    height: auto;
+}
+
 #titulo
 {
     display: block;    
@@ -66,6 +72,7 @@
     height: 50rem;       
     border-radius: 2rem; 
     margin: 2rem 0;
+    max-width: 100%;    
 }
 
 #character_name
@@ -82,8 +89,7 @@
 }
 
 #menu_container
-{
-    /* border: 0.2rem solid blue; */
+{    
     margin: 4rem 0;
     display: flex;
     justify-content: center;
@@ -129,3 +135,30 @@ body, p, b, span
     font-size: 1.6rem;
 }
 
+@media screen and (max-width: 670px) {
+    
+    nav li 
+    {
+        display: block;
+        width: 100%;        
+    }    
+    .menu_link 
+    {        
+        border: 0.3rem solid black;                
+        margin: 1rem;
+        padding: 1rem 0;
+        text-align: center;
+        display: block;        
+        
+    }
+    #menu_container
+    {
+        display: block;        
+    }
+
+    .document-img
+    {
+        max-width: 100%;
+        height: auto;
+    }
+}
