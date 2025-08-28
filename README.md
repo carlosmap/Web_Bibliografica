@@ -32,7 +32,7 @@ En ella encontrará su biografía y videos de interés que amplían su trayector
 ![](https://drive.google.com/thumbnail?id=1eP6EuKXA4S0Aho88cSbHY-gME5vJJf3e&sz=w500)
 
 </div>
-# 
+ 
 
 ## Tecnologias
 Para el desarrollo de este sitio se utilizaron las tecnologías HTML Y CSS.
