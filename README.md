@@ -35,5 +35,5 @@ En ella encontrará su biografía y videos de interés que amplían su trayector
 </div>
 
 
-## Tecnologias
+## Tecnologías
 Para el desarrollo de este sitio se utilizaron las tecnologías HTML Y CSS.
